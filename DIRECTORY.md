@@ -8,11 +8,20 @@ ni publicación en el directorio de Anthropic.
 - Nombre: Identik.
 - Repositorio: https://github.com/Identik-me/identik-claude-plugin
 - Ruta del plugin: raíz; dejar vacía.
-- Rama: `main`. Primera versión: `1.0.0`.
+- Rama: `main`. Versión actual: `1.0.1`.
 - Categoría sugerida: productividad / gestión de documentos.
 - Contacto: contacto@identik.me.
-- Descripción y enlaces: `.claude-plugin/plugin.json`.
+- Descripción: `.claude-plugin/plugin.json`.
+- Documentación, soporte, privacidad, condiciones y logo: README.
 - Ejemplos comprobables: sección Ejemplos del README.
+
+La versión 1.0.1 elimina los cinco campos de listado que el portal señalaba como
+desconocidos y el PNG que generaba la nota de archivo binario. Conserva los
+enlaces y el logo SVG en el README; el manifiesto ya no declara un icono para la
+ficha del directorio. El campo estándar `homepage` apunta a esa documentación.
+La validación local estricta pasa sin advertencias; añade la nota informativa
+`PRIVACY_URL_MISSING` porque obtiene la política de privacidad del README.
+La confirmación del resultado del portal requiere revalidar el nuevo commit.
 
 ## MCP connector
 

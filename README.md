@@ -1,3 +1,5 @@
+![Identik](assets/logo.svg)
+
 # Identik para Claude
 
 Consulte documentos, prepare borradores desde plantillas y obtenga PDFs firmados y constancias de **Firma Digital** y **Firma Electrónica** desde Claude. Una conexión permite trabajar con una o ambas plataformas, según los equipos que autorice.

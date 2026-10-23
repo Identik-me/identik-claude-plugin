@@ -8,7 +8,7 @@
     {
       "name": "identik",
       "source": "./",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Gestione documentos de Firma Digital y Firma Electrónica: consulte estados, prepare borradores desde plantillas y obtenga PDFs firmados y constancias."
     }
   ],
