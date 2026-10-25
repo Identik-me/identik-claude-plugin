@@ -8,20 +8,19 @@ ni publicación en el directorio de Anthropic.
 - Nombre: Identik.
 - Repositorio: https://github.com/Identik-me/identik-claude-plugin
 - Ruta del plugin: raíz; dejar vacía.
-- Rama: `main`. Versión actual: `1.0.1`.
+- Rama: `main`. Versión actual: `1.0.2`.
 - Categoría sugerida: productividad / gestión de documentos.
 - Contacto: contacto@identik.me.
 - Descripción: `.claude-plugin/plugin.json`.
-- Documentación, soporte, privacidad, condiciones y logo: README.
+- Documentación, soporte, privacidad, condiciones e icono: manifiesto y README.
 - Ejemplos comprobables: sección Ejemplos del README.
 
-La versión 1.0.1 elimina los cinco campos de listado que el portal señalaba como
-desconocidos y el PNG que generaba la nota de archivo binario. Conserva los
-enlaces y el logo SVG en el README; el manifiesto ya no declara un icono para la
-ficha del directorio. El campo estándar `homepage` apunta a esa documentación.
-La validación local estricta pasa sin advertencias; añade la nota informativa
-`PRIVACY_URL_MISSING` porque obtiene la política de privacidad del README.
-La confirmación del resultado del portal requiere revalidar el nuevo commit.
+La versión 1.0.2 vuelve a declarar en el manifiesto los campos de listado documentados
+(`icon`, `documentationUrl`, `supportUrl`, `privacyPolicyUrl`, `termsOfServiceUrl`) y el
+icono PNG. La 1.0.1 los había quitado porque el portal los marcaba como desconocidos; el
+validador actual de Claude Code (2.1.307, «un subconjunto de lo que corre el directorio»)
+los acepta en modo estricto sin notas. Si el portal vuelve a marcarlos, revertir sólo esos
+campos. La confirmación del resultado del portal requiere revalidar el nuevo commit.
 
 ## MCP connector
 

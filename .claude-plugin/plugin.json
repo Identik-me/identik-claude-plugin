@@ -1,16 +1,21 @@
 {
   "name": "identik",
   "displayName": "Identik",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gestione documentos de Firma Digital y Firma Electrónica: consulte estados, prepare borradores desde plantillas y obtenga PDFs firmados y constancias.",
   "author": {
     "name": "Identik",
     "email": "contacto@identik.me",
     "url": "https://identik.me"
   },
-  "homepage": "https://github.com/Identik-me/identik-claude-plugin#readme",
+  "homepage": "https://identik.me/developers/",
   "repository": "https://github.com/Identik-me/identik-claude-plugin",
   "license": "MIT",
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://github.com/Identik-me/identik-claude-plugin#readme",
+  "supportUrl": "https://claude-connect.identik.me/support",
+  "privacyPolicyUrl": "https://claude-connect.identik.me/privacy",
+  "termsOfServiceUrl": "https://claude-connect.identik.me/terms",
   "keywords": [
     "documentos",
     "firma-digital",
